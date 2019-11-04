@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Adopt a pet</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+    <h1>Adopt a pet</h1>
+    <hr/>
+    <div class="initialbuttons">
+        <button id="create-button" class="button" onclick="senMessage()">Add</button>
+        <button id="refresh-button" class="button" onclick="refresh()">Refresh</button>
+    </div>
+    <div class="container">
+        <h2>Pets for adoption</h2>
+        <div id="animals-containers">
+            <!-- 
+                This is where the actual pets will be displayed. 
+                The nodes will be created dynamically using JavaScript 
+                and data from the REST endpoints
+            -->
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/script-index.js"></script>
+</body>
+
+</html>

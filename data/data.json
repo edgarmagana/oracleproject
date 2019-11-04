@@ -1,0 +1,66 @@
+[
+    {
+        "id": "1",
+        "name": "Ayudante de Santa",
+        "age": "2 years",
+        "race": "galgo",
+        "status": "available",
+        "imageName": "1.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Bola de nieve III",
+        "age": "1 year",
+        "race": "angora",
+        "status": "unavailable",
+        "imageName": "doraemonpng.png"
+    },
+    {
+        "id": "7",
+        "name": "Bola de nieve II",
+        "age": "1  year",
+        "race": "angora",
+        "status": "available",
+        "imageName": "3.jpg"
+    },
+    {
+        "name": "asdf",
+        "age": "sdfgh",
+        "race": "sdfg",
+        "status": "available",
+        "id": 0.4988207737001704,
+        "imageName": "doraemonpng.png"
+    },
+    {
+        "name": "gato",
+        "age": "6",
+        "race": "asdads",
+        "status": "available",
+        "id": 0.5011809564491221,
+        "imageName": "5.jpg"
+    },
+    {
+        "name": "asd",
+        "age": "asd",
+        "race": "asd",
+        "status": "available",
+        "id": 0.5698863195408859,
+        "imageName": "5.jpg"
+    },
+    {
+        "name": "",
+        "age": "",
+        "race": "",
+        "status": "available",
+        "id": 0.1185951023771572,
+        "imageName": "1.jpg"
+    },
+    {
+        "name": "asd",
+        "age": "ads",
+        "race": "asd",
+        "status": "available",
+        "id": 0.23918896902479303,
+        "imageName": "3.jpg"
+    }
+]

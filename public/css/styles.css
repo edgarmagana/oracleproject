@@ -1,0 +1,149 @@
+html {
+    font-family: Arial, Geneva, Helvetica, sans-serif;
+}
+
+.container {
+    width: 80%;
+    height: auto;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.form {
+    padding: 20px;
+    height: 85%;
+}
+
+.floatrigth {
+    flex: 1;
+    width: 400px;
+    text-align: right;
+}
+
+#available {
+    display: flex;
+}
+
+#animals-containers {
+    padding-left: 10%;
+}
+
+#bottondiv {
+    margin-top: 50px;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.buttonred {
+    background-color: f44336 !important;
+}
+
+.initialbuttons {
+    margin-bottom: 10%;
+    width: 100%;
+}
+
+.animal-node {
+    border: 1px gray solid;
+    background-color: white;
+    border-radius: 5px;
+    width: 200px;
+    height: 235px;
+    display: inline-block;
+    margin: 15px;
+    padding: 25px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.animal-node:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.animal-node label {
+    font-weight: bold;
+}
+
+.button {
+    padding: 10px;
+    float: right;
+    margin-right: 20px;
+}
+
+.img-pet-div {
+    text-align: center;
+}
+
+.img-pet {
+    height: 150px;
+    max-width: 200px;
+}
+
+.edit-icon {
+    position: relative;
+    top: -15px;
+    left: 196px;
+    float: left;
+    cursor: pointer;
+}
+
+.edit-icon:after {
+    content: "";
+    display: block;
+    background: url('/icons/edit.png');
+    width: 24px;
+    height: 24px;
+    background-size: 24px;
+}
+
+.delete-icon {
+    position: relative;
+    top: -15px;
+    left: -40px;
+    float: left;
+    cursor: pointer;
+}
+
+.delete-icon:after {
+    content: "";
+    display: block;
+    background: url('/icons/delete.png');
+    width: 24px;
+    height: 24px;
+    background-size: 24px;
+}
+
+.animal-node .edit-icon,
+.animal-node .delete-icon {
+    visibility: hidden;
+}
+
+.animal-node:hover .edit-icon,
+.animal-node:hover .delete-icon {
+    visibility: unset;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}

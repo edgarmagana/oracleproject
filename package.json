@@ -1,0 +1,20 @@
+{
+    "name": "ong-project",
+    "version": "1.0.0",
+    "description": "Ong-project-oracle",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "author": "Edgar Magana",
+    "license": "ISC",
+    "dependencies": {
+        "express": "*",
+        "express-basic-auth": "^1.2.0",
+        "multer": "^1.4.2"
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.4"
+    }
+}

@@ -1,0 +1,47 @@
+<head>
+    <title>store</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+</head>
+
+<h1 id="title">Add a pet</h1>
+<hr />
+<div class="container">
+    <div class="form">
+        <div id="container-edit">
+            <div>
+                <label for="animal-name"> Name: </label>
+                <input name="animal-name" id="animal-name" type="text">
+            </div>
+            <div>
+                <label for="animal-age"> Age: </label>
+                <input name="animal-age" id="animal-age" type="text">
+            </div>
+            <div>
+                <label for="animal-race"> Race: </label>
+                <input name="animal-race" id="animal-race" type="text">
+            </div>
+            <div id="available">
+                <label for="animal-status"> Status: </label>
+                <input name="animal-status" id="animal-status" type="radio" value="available">available
+                <span id="animal-unavailable"><input name="animal-status" id="animal-status-unavailable"  type="radio" value="unavailable">Unavailable</span>
+                <div class="floatrigth">
+                    <label for="animal-image"> Image: </label>
+                    <input type="file" id="animal-image" name="animal-image">
+                </div>
+            </div>
+            <!--<div>
+                <label for="animal-image"> Image: </label>
+                <input type="file" id="animal-image" name="animal-image">
+
+            </div>-->
+            <div id="bottondiv">
+                <button class="button buttonred" onclick="returnTo()">Cancel</button>
+                <button class="button " onclick="postData()">Save</button>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="js/createdit.js"></script>
