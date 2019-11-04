@@ -53,26 +53,27 @@ In order to build and run the project, you need to have node and npm installed i
 
 Clone this repository and `cd` into the project's directory then execute:
 
-sh
+```
 npm install
+```
 
 npm will install all required dependencies in your system.
 
 When npm finishes doing its thing, you can start the web server:
 
-sh
+```
 npm start
-
+```
 or 
-sh
+```
 node index.js
-
+```
 
 Wait until you see the following output:
 
-sh
+```
 Web app started listening on port 3000
-
+```
 
 After that, you will be able to access you local development server at http://localhost:3000/
 
@@ -80,9 +81,9 @@ After that, you will be able to access you local development server at http://lo
 
 Alternatively, you can run the project in development mode, which allows for hot code reloading. This mode uses [nodemon](<https://www.npmjs.com/package/nodemon>) to launch the dev server and restart it automatically whenever a change is done to the applications code.
 
-sh
+```
 nodemon index.js
-
+```
 
 ## REST API
 
@@ -99,13 +100,3 @@ The REST API implemented is quite simple and straightforward.
 - `DELETE /ngo/animals/:id`   
   Will delete the record of an existing animal with the provided `id`.
 
-## Limitations
-
-Given my limited personal time due to my work commitments, I will not be able to cover as many implementation aspects as I would have liked. This is a list of limitations
-
-- No Authentication or Authorization  
-The site is open to anyone. This is of course not ideal.
-- No real Database  
-As mentioned before in the Development Stack section, I opted to compromise in this area and just settle for a simpler file system based approach.
-- Poor Design and UX  
-As much as I would like to say otherwise, coming up with beautiful, colorful things is not my best quality, so I do it best with feedback from peers
